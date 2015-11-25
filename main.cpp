@@ -107,7 +107,7 @@ int main (int argc, char *argv[]) {
 
     sort(points_sorted.begin(), points_sorted.end(), compare);
 
-        // Write OFF
+    // Write OFF
 	ofstream fout;
 	string out_filename(argv[1]);
 	auto ext_pos = out_filename.find_last_of(".");
